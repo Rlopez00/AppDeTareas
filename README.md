@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# To-Do List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación simple de lista de tareas desarrollada con React Native. Permite a los usuarios agregar, editar y eliminar tareas, así como organizarlas por categoría y fecha de vencimiento.
 
-## Get started
+## Características
 
-1. Install dependencies
+- **Agregar tareas**: Permite a los usuarios agregar nuevas tareas con título, descripción, fecha de vencimiento y categoría.
+- **Editar tareas**: Los usuarios pueden editar tareas existentes para actualizar su información.
+- **Eliminar tareas**: Los usuarios pueden eliminar tareas que ya no son necesarias.
+- **Organización**: Las tareas se pueden organizar por categoría: Escuela, Hogar, Trabajo o Relaciones.
+- **Interfaz amigable**: La aplicación tiene una interfaz limpia y fácil de usar.
+
+## Tecnologías utilizadas
+
+- **React Native**: Para el desarrollo de la aplicación multiplataforma.
+- **AsyncStorage**: Para almacenar datos localmente en el dispositivo.
+- **React Navigation**: Para la navegación entre pantallas.
+- **React Native Paper**: Para componentes de interfaz de usuario y diseño.
+
+## Instalación
+
+Para ejecutar esta aplicación en tu entorno local, sigue estos pasos:
+
+1. **Clona el repositorio**:
+
+   ```bash
+   git clone https://github.com/Rlopez00/AppDeTareas.git
+   cd AppDeTareas
+
+2. Instala las dependencias:
 
    ```bash
    npm install
-   ```
 
-2. Start the app
+3. Ejecuta la aplicación:
+
 
    ```bash
-    npx expo start
-   ```
+   npx react-native run-android  # Para Android
+   npx react-native run-ios      # Para iOS
+   
+## Uso
+1. Abre la aplicación.
+2. Agrega una nueva tarea usando el formulario.
+3. Organiza las tareas según su categoría y fecha de vencimiento.
+4. Edita o elimina tareas según sea necesario.
 
-In the output, you'll find options to open the app in a
+## Capturas de pantalla
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Captura desde 2024-10-30 12-10-42](https://github.com/user-attachments/assets/37addfab-364f-4c4c-af42-d4462f707112)
+![Captura desde 2024-10-30 12-10-29](https://github.com/user-attachments/assets/8c677d93-b35e-408b-b484-a81018996cf2)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
